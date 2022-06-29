@@ -101,3 +101,40 @@ p {
     width: fit-content;
     height: fit-content;
 }
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#create-account {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #596D48;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    border: 0px;
+}
+#create-account:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#login {
+    width: fit-content;
+    height: fit-content;
+    background-color: #E5E7EB;
+    color: #596D48;
+    font-weight: bold;
+    font-size: 30px;
+    border: 0px;
+}
+#login:hover {
+    cursor: pointer;
+}
