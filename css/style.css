@@ -14,15 +14,16 @@ body {
     border-radius: 25px;
 }
 
-#image {
+#container {
     display: flex;
     height: 100%;
-    width: 35%;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 #leaves {
     height: 100%;
-    width: 100%;
+    width: 35%;
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
 }
@@ -32,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    width: 23.3%;
+    width: 23.56%;
     opacity: 50%;
     margin-top: 10%;    
 }
@@ -48,5 +49,9 @@ body {
 #odin {
     width: 35%;
     margin: 10px;
-    object-fit: cover;
+}
+
+#sections {
+    width: 250px;
+    border: 2px solid red;
 }
