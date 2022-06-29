@@ -51,7 +51,22 @@ body {
     margin: 10px;
 }
 
-#sections {
-    width: 250px;
+#sections-container {
+    width: 100%;
+    background-color: #E5E7EB;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.section {
     border: 2px solid red;
+    width: 100%;
+    height: 33%;
+}
+
+#section1 {
+    border-top-right-radius: 25px;
+}
+#section3 {
+    border-bottom-right-radius: 25px;
 }
