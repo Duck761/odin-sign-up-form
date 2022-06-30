@@ -11,7 +11,6 @@ body {
     height: calc(900px - 10rem);
     background-color: #ffffff;
     box-shadow: 0 0 15px 2px black;
-    border-radius: 25px;
 }
 
 #container {
@@ -19,14 +18,11 @@ body {
     height: 100%;
     width: 100%;
     margin-bottom: 50px;
-    border-radius: 25px;
 }
 
 #leaves {
     height: 100%;
     width: 35%;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
 }
 
 #logo {
@@ -55,20 +51,11 @@ body {
 #sections-container {
     width: 100%;
     background-color: #E5E7EB;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
 
 .section {
     width: 100%;
     height: 33%;
-}
-
-#section1 {
-    border-top-right-radius: 25px;
-}
-#section3 {
-    border-bottom-right-radius: 25px;
 }
 
 p {
@@ -153,12 +140,7 @@ p {
 
 #first-name,
 #last-name,
-#email {
-    width: fit-content;
-    height: fit-content;
-    padding: 3px;
-    border-radius: 3px;
-}
+#email,
 #number,
 #password,
 #confirm-password {
@@ -166,4 +148,5 @@ p {
     height: fit-content;
     padding: 3px;
     border-radius: 3px;
+    font-size: 20px;
 }
